@@ -1,0 +1,711 @@
+INFO[2018-11-13T11:16:36.030-05:00] Reconnecting to rabbit                       
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using fleetmatics-p-us-2lz1iJWV2mx48Cb5HVKvpi9z for Application ID 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using REST_USER@charter.com for Username 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using ********* for Password  
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 1 for API Retry         
+INFO[2018-11-13T11:16:37.030-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:16:37.030-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 'GLA-Maintenance', 'HAW-Maintenance', 'CAR-Maintenance', 'CEN-Maintenance', 'FLO-Maintenance', 'NEA-Maintenance', 'NWE-Maintenance', 'NYC-Maintenance', 'SOH-Maintenance', 'STH-Maintenance', 'TEX-Maintenance', 'WES-Maintenance', 'James Dwyer', 'Michael Sams', 'Scott A Shelton', 'Arturo H Fernandez', 'Daniel Ward', 'Jose C Jimenez', 'Matthew L Holden', 'Paul Russo', 'Derek L Mosley', 'Javier Garza', 'Ricardo Munoz', 'TEX-MAINT-Central Texas', 'TEX-MAINT-North Texas', 'TEX-MAINT-South Texas', 'TEX-MISC-Central Texas', 'Michael Drugovich', 'GLA-MAINT-Michigan', 'Dwayne Greenfield', 'David Johnson', 'Matthew Graves', 'Ronald Stachnik', 'Norman Kirk', 'Andrew Clements', 'Robert Carrington', 'Ryan Stevens', 'Ronald Gracey', 'Casey Hendricks', 'Eric Rush', 'Marty Wascher', 'Randy Bunker', 'GLA-MAINT-Northern Ohio' for Groups List 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/token for Token URL 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/cmd/v1/vehicles/group/%s for Vehicles URL 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/cmd/v1/vehicles/%s for Vehicle Details URL 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/rad/v1/vehicles/%s/location for Location URL 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/rad/v1/vehicles/%s/status for Status URL 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 30s for Token Timeout   
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 1m0s for Vehicles Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 30s for Vehicle Detail Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 30s for Location Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 30s for Status Timeout  
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 15m0s for Token Interval 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 1h0m0s for Vehicles Interval 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 3m0s for Location Interval 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 3m0s for Status Interval 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 10s for Progress Status Interval 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 24 for PutProps Cache Duration 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 200 for Get Location Goroutines Size 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 200 for Get Status Goroutines Size 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 100 for Get Detail Goroutines Size 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 10s for TCP Dial Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 10s for TCP TLS Handshake Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 400 for TCP Max Idle Connections 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 400 for TCP Max Idle Connections Per Host 
+INFO[2018-11-13T11:16:37.030-05:00] Configuration: Using 10m0s for TCP Idle Connections Timeout 
+INFO[2018-11-13T11:16:37.030-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:16:37.031-05:00] Vehicles list is not yet ready to retrive status. I will try after 10s. 
+INFO[2018-11-13T11:16:37.031-05:00] Token is not ready to retrieve vehicles. I will try after 5s. 
+INFO[2018-11-13T11:16:37.031-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue 
+INFO[2018-11-13T11:16:37.031-05:00] Creating channel for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue consumer 
+ERRO[2018-11-13T11:16:37.031-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:16:37.031-05:00] Vehicles list is not yet ready to retrive locations. I will try after 10s. 
+INFO[2018-11-13T11:16:37.486-05:00] A new token is ready!                        
+INFO[2018-11-13T11:16:38.030-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:16:38.030-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:16:38.030-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:16:38.031-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue 
+INFO[2018-11-13T11:16:38.031-05:00] Creating channel for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue consumer 
+ERRO[2018-11-13T11:16:38.031-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:16:39.030-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:16:39.030-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+ERRO[2018-11-13T11:16:39.030-05:00] Failed to open connection                     error='dial tcp: i/o timeout'
+INFO[2018-11-13T11:16:39.030-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:16:39.031-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue 
+INFO[2018-11-13T11:16:39.031-05:00] Creating channel for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue consumer 
+ERRO[2018-11-13T11:16:39.031-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:16:40.030-05:00] Reconnecting to rabbit                       
+INFO[2018-11-13T11:16:40.030-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:16:40.030-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:16:40.030-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:16:40.031-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue 
+INFO[2018-11-13T11:16:40.031-05:00] Creating channel for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue consumer 
+ERRO[2018-11-13T11:16:40.031-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:16:40.036-05:00] Connection to RabbitMQ is established!       
+INFO[2018-11-13T11:16:41.031-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:16:41.031-05:00] Creating channel to publish messages         
+INFO[2018-11-13T11:16:41.031-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue 
+INFO[2018-11-13T11:16:41.032-05:00] Creating channel for h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9 queue consumer 
+INFO[2018-11-13T11:16:41.037-05:00] Starting to consume                           queue='h-scope-gpsfleet-RPC-b7fc130c-b58c-4afd-9dd8-568cf9eb00d9'
+INFO[2018-11-13T11:16:42.031-05:00] Getting vehicles list started for 43 groups  
+ERRO[2018-11-13T11:16:42.233-05:00] Bad status for 'GLA-Maintenance' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:16:42.476-05:00] Bad status for 'HAW-Maintenance' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:16:42.838-05:00] Found vehicles for 'CAR-Maintenance' group: 327 
+INFO[2018-11-13T11:16:43.198-05:00] Found vehicles for 'CEN-Maintenance' group: 539 
+INFO[2018-11-13T11:16:43.427-05:00] Found vehicles for 'FLO-Maintenance' group: 338 
+INFO[2018-11-13T11:16:43.791-05:00] Found vehicles for 'NEA-Maintenance' group: 506 
+INFO[2018-11-13T11:16:44.050-05:00] Found vehicles for 'NWE-Maintenance' group: 379 
+INFO[2018-11-13T11:16:44.313-05:00] Found vehicles for 'NYC-Maintenance' group: 190 
+INFO[2018-11-13T11:17:22.566-05:00] Reconnecting to rabbit                       
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using fleetmatics-p-us-2lz1iJWV2mx48Cb5HVKvpi9z for Application ID 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using REST_USER@charter.com for Username 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using ********* for Password  
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 1 for API Retry         
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 'GLA-Maintenance', 'HAW-Maintenance', 'CAR-Maintenance', 'CEN-Maintenance', 'FLO-Maintenance', 'NEA-Maintenance', 'NWE-Maintenance', 'NYC-Maintenance', 'SOH-Maintenance', 'STH-Maintenance', 'TEX-Maintenance', 'WES-Maintenance', 'James Dwyer', 'Michael Sams', 'Scott A Shelton', 'Arturo H Fernandez', 'Daniel Ward', 'Jose C Jimenez', 'Matthew L Holden', 'Paul Russo', 'Derek L Mosley', 'Javier Garza', 'Ricardo Munoz', 'TEX-MAINT-Central Texas', 'TEX-MAINT-North Texas', 'TEX-MAINT-South Texas', 'TEX-MISC-Central Texas', 'Michael Drugovich', 'GLA-MAINT-Michigan', 'Dwayne Greenfield', 'David Johnson', 'Matthew Graves', 'Ronald Stachnik', 'Norman Kirk', 'Andrew Clements', 'Robert Carrington', 'Ryan Stevens', 'Ronald Gracey', 'Casey Hendricks', 'Eric Rush', 'Marty Wascher', 'Randy Bunker', 'GLA-MAINT-Northern Ohio' for Groups List 
+INFO[2018-11-13T11:17:23.566-05:00] Creating channel to publish messages         
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/token for Token URL 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/cmd/v1/vehicles/group/%s for Vehicles URL 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/cmd/v1/vehicles/%s for Vehicle Details URL 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/rad/v1/vehicles/%s/location for Location URL 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using https://fim.api.us.fleetmatics.com/rad/v1/vehicles/%s/status for Status URL 
+ERRO[2018-11-13T11:17:23.566-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 30s for Token Timeout   
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 1m0s for Vehicles Timeout 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 30s for Vehicle Detail Timeout 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 30s for Location Timeout 
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 30s for Status Timeout  
+INFO[2018-11-13T11:17:23.566-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:17:23.566-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue 
+INFO[2018-11-13T11:17:23.566-05:00] Creating channel for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue consumer 
+ERRO[2018-11-13T11:17:23.566-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:17:23.566-05:00] Configuration: Using 15m0s for Token Interval 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 1h0m0s for Vehicles Interval 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 3m0s for Location Interval 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 3m0s for Status Interval 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 10s for Progress Status Interval 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 24 for PutProps Cache Duration 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 200 for Get Location Goroutines Size 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 200 for Get Status Goroutines Size 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 100 for Get Detail Goroutines Size 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 10s for TCP Dial Timeout 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 10s for TCP TLS Handshake Timeout 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 400 for TCP Max Idle Connections 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 400 for TCP Max Idle Connections Per Host 
+INFO[2018-11-13T11:17:23.567-05:00] Configuration: Using 10m0s for TCP Idle Connections Timeout 
+INFO[2018-11-13T11:17:23.567-05:00] Vehicles list is not yet ready to retrive status. I will try after 10s. 
+INFO[2018-11-13T11:17:23.567-05:00] Token is not ready to retrieve vehicles. I will try after 5s. 
+INFO[2018-11-13T11:17:23.567-05:00] Vehicles list is not yet ready to retrive locations. I will try after 10s. 
+INFO[2018-11-13T11:17:24.567-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:17:24.567-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:17:24.567-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:17:24.567-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue 
+INFO[2018-11-13T11:17:24.568-05:00] Creating channel for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue consumer 
+ERRO[2018-11-13T11:17:24.568-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+ERRO[2018-11-13T11:17:25.566-05:00] Failed to open connection                     error='dial tcp: i/o timeout'
+INFO[2018-11-13T11:17:25.567-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:17:25.567-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:17:25.567-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:17:25.569-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue 
+INFO[2018-11-13T11:17:25.569-05:00] Creating channel for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue consumer 
+ERRO[2018-11-13T11:17:25.569-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:17:26.567-05:00] Reconnecting to rabbit                       
+INFO[2018-11-13T11:17:26.567-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:17:26.567-05:00] Creating channel to publish messages         
+ERRO[2018-11-13T11:17:26.567-05:00] Failed to open channel for publisher: Connection is not yet ready. 
+INFO[2018-11-13T11:17:26.569-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue 
+INFO[2018-11-13T11:17:26.569-05:00] Creating channel for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue consumer 
+ERRO[2018-11-13T11:17:26.569-05:00] Failed to get channel to for consumer         error='Connection is not yet ready.'
+INFO[2018-11-13T11:17:26.615-05:00] Connection to RabbitMQ is established!       
+INFO[2018-11-13T11:17:27.465-05:00] A new token is ready!                        
+INFO[2018-11-13T11:17:27.567-05:00] Undeliverable publish listener is closed. Attempting to listen again. 
+INFO[2018-11-13T11:17:27.567-05:00] Creating channel to publish messages         
+INFO[2018-11-13T11:17:27.569-05:00] Starting initial consume loop for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue 
+INFO[2018-11-13T11:17:27.569-05:00] Creating channel for h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19 queue consumer 
+INFO[2018-11-13T11:17:27.574-05:00] Starting to consume                           queue='h-scope-gpsfleet-RPC-f32dfe2b-eff3-4173-83c2-ffe5bb1dde19'
+INFO[2018-11-13T11:17:28.567-05:00] Getting vehicles list started for 43 groups  
+ERRO[2018-11-13T11:17:28.759-05:00] Bad status for 'GLA-Maintenance' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:28.999-05:00] Bad status for 'HAW-Maintenance' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:29.264-05:00] Found vehicles for 'CAR-Maintenance' group: 327 
+INFO[2018-11-13T11:17:29.550-05:00] Found vehicles for 'CEN-Maintenance' group: 539 
+INFO[2018-11-13T11:17:29.833-05:00] Found vehicles for 'FLO-Maintenance' group: 338 
+INFO[2018-11-13T11:17:30.152-05:00] Found vehicles for 'NEA-Maintenance' group: 506 
+INFO[2018-11-13T11:17:30.425-05:00] Found vehicles for 'NWE-Maintenance' group: 379 
+INFO[2018-11-13T11:17:30.690-05:00] Found vehicles for 'NYC-Maintenance' group: 190 
+INFO[2018-11-13T11:17:30.967-05:00] Found vehicles for 'SOH-Maintenance' group: 422 
+INFO[2018-11-13T11:17:31.233-05:00] Found vehicles for 'STH-Maintenance' group: 297 
+INFO[2018-11-13T11:17:31.508-05:00] Found vehicles for 'TEX-Maintenance' group: 477 
+WARN[2018-11-13T11:17:31.508-05:00] Encountered empty vehicle number for vehicle '180901627 ' under 'TEX-Maintenance' group 
+INFO[2018-11-13T11:17:31.786-05:00] Found vehicles for 'WES-Maintenance' group: 502 
+ERRO[2018-11-13T11:17:31.973-05:00] Bad status for 'James Dwyer' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:32.159-05:00] Bad status for 'Michael Sams' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:32.380-05:00] Found vehicles for 'Scott A Shelton' group: 2 
+INFO[2018-11-13T11:17:32.615-05:00] Found vehicles for 'Arturo H Fernandez' group: 13 
+INFO[2018-11-13T11:17:32.842-05:00] Found vehicles for 'Daniel Ward' group: 1    
+ERRO[2018-11-13T11:17:33.039-05:00] Bad status for 'Jose C Jimenez' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:33.289-05:00] Bad status for 'Matthew L Holden' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:33.523-05:00] Found vehicles for 'Paul Russo' group: 2     
+INFO[2018-11-13T11:17:33.567-05:00] Vehicles list is not yet ready to retrive status. I will try after 10s. 
+INFO[2018-11-13T11:17:33.568-05:00] Vehicles list is not yet ready to retrive locations. I will try after 10s. 
+INFO[2018-11-13T11:17:33.749-05:00] Found vehicles for 'Derek L Mosley' group: 36 
+INFO[2018-11-13T11:17:33.977-05:00] Found vehicles for 'Javier Garza' group: 4   
+ERRO[2018-11-13T11:17:34.174-05:00] Bad status for 'Ricardo Munoz' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:34.414-05:00] Found vehicles for 'TEX-MAINT-Central Texas' group: 91 
+INFO[2018-11-13T11:17:34.692-05:00] Found vehicles for 'TEX-MAINT-North Texas' group: 217 
+INFO[2018-11-13T11:17:34.961-05:00] Found vehicles for 'TEX-MAINT-South Texas' group: 168 
+WARN[2018-11-13T11:17:34.961-05:00] Encountered empty vehicle number for vehicle '180901627 ' under 'TEX-MAINT-South Texas' group 
+INFO[2018-11-13T11:17:35.192-05:00] Found vehicles for 'TEX-MISC-Central Texas' group: 49 
+ERRO[2018-11-13T11:17:35.377-05:00] Bad status for 'Michael Drugovich' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:35.604-05:00] Found vehicles for 'GLA-MAINT-Michigan' group: 202 
+ERRO[2018-11-13T11:17:35.796-05:00] Bad status for 'Dwayne Greenfield' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:35.987-05:00] Bad status for 'David Johnson' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:36.175-05:00] Bad status for 'Matthew Graves' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:36.363-05:00] Bad status for 'Ronald Stachnik' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:36.552-05:00] Bad status for 'Norman Kirk' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:36.739-05:00] Bad status for 'Andrew Clements' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:36.923-05:00] Bad status for 'Robert Carrington' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:37.113-05:00] Bad status for 'Ryan Stevens' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:37.309-05:00] Bad status for 'Ronald Gracey' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:37.502-05:00] Bad status for 'Casey Hendricks' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:37.687-05:00] Bad status for 'Eric Rush' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:37.879-05:00] Bad status for 'Marty Wascher' List API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:38.086-05:00] Bad status for 'Randy Bunker' List API call. Status: 204 No Content 
+INFO[2018-11-13T11:17:38.367-05:00] Found vehicles for 'GLA-MAINT-Northern Ohio' group: 213 
+INFO[2018-11-13T11:17:38.367-05:00] Get vehicles list status; Total Groups: 43, Found Groups: 22 (51.16%), Bad Data: 21 (48.84%), API Call Failure: 0 (0.00%), Retry success: 0, Time to complete: 9.799884041s 
+INFO[2018-11-13T11:17:38.367-05:00] Getting vehicles detail started for 4973 vehicles 
+ERRO[2018-11-13T11:17:41.291-05:00] Bad status for 'NWE-FG670881.' Detail API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:17:42.952-05:00] Bad status for 'TEX-DDA35819 ' Detail API call. Status: 404 Not Found 
+INFO[2018-11-13T11:17:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:17:43.568-05:00] Getting vehicles location started.           
+INFO[2018-11-13T11:17:43.570-05:00] Location progress; Lapsed Time: 1.968194ms, Processed: 0 (0.00%), Processing: 81 (1.63%), Found: 0 (0.00%), Bad Data: 0 (0.00%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:17:43.819-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:43.958-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:44.655-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:44.709-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:45.743-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:45.909-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:45.966-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.392-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.530-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.578-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.607-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.849-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:46.958-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:47.258-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:47.657-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:48.055-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:48.366-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:48.840-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:49.359-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:49.410-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:49.782-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:49.840-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:49.942-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:51.644-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:53.138-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+INFO[2018-11-13T11:17:53.566-05:00] Awaiting Reply: 0, NumThreads: 2520          
+INFO[2018-11-13T11:17:53.567-05:00] Status progress; Lapsed Time: 9.999808315s, Processed: 2444 (49.15%), Processing: 199 (4.00%), Found: 2431 (91.98%), Bad Data: 13 (0.49%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:17:53.568-05:00] Location progress; Lapsed Time: 9.999880233s, Processed: 1335 (26.84%), Processing: 200 (4.02%), Found: 1323 (86.19%), Bad Data: 12 (0.78%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:17:54.326-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:57.646-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:17:58.013-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:17:58.371-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:18:02.111-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:18:02.536-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:18:03.568-05:00] Location progress; Lapsed Time: 20.000412719s, Processed: 3060 (61.53%), Processing: 200 (4.02%), Found: 3045 (93.40%), Bad Data: 15 (0.46%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:18:03.568-05:00] Status progress; Lapsed Time: 20.000705585s, Processed: 4963 (99.80%), Processing: 9 (0.18%), Found: 4947 (99.50%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:18:08.974-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:18:13.568-05:00] Location progress; Lapsed Time: 29.999949666s, Processed: 4373 (87.93%), Processing: 200 (4.02%), Found: 4357 (95.28%), Bad Data: 16 (0.35%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:18:16.012-05:00] Get vehicles detail status; Total Vehicles: 4973, Found Details: 4971 (99.96%), Bad Data: 2 (0.04%), API Call Failure: 0 (0.00%), Retry success: 6, Time to complete: 37.644423251s 
+INFO[2018-11-13T11:18:23.567-05:00] Awaiting Reply: 0, NumThreads: 1241          
+INFO[2018-11-13T11:18:23.568-05:00] Location progress; Lapsed Time: 39.999948476s, Processed: 4970 (99.94%), Processing: 3 (0.06%), Found: 4954 (99.62%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 4 
+INFO[2018-11-13T11:18:29.604-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 10, Time to complete: 46.036460595s 
+INFO[2018-11-13T11:18:37.662-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 7, Time to complete: 54.093793782s 
+INFO[2018-11-13T11:18:53.566-05:00] Awaiting Reply: 0, NumThreads: 1226          
+INFO[2018-11-13T11:19:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:19:53.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:20:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:20:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:20:43.568-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:20:43.989-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:44.010-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:44.068-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:44.074-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:44.518-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.164-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.256-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.309-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.341-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.451-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.451-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.658-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:45.993-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.229-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.307-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.614-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.823-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.889-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:46.977-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:47.645-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:48.534-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:48.766-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:49.419-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:49.842-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:50.107-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+INFO[2018-11-13T11:20:53.566-05:00] Awaiting Reply: 0, NumThreads: 1864          
+INFO[2018-11-13T11:20:53.567-05:00] Status progress; Lapsed Time: 9.999500672s, Processed: 2560 (51.48%), Processing: 197 (3.96%), Found: 2547 (92.38%), Bad Data: 13 (0.47%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:20:53.568-05:00] Location progress; Lapsed Time: 9.999804643s, Processed: 1464 (29.44%), Processing: 200 (4.02%), Found: 1452 (87.26%), Bad Data: 12 (0.72%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:20:53.948-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:20:58.943-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:21:01.647-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:21:01.867-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:21:01.927-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+INFO[2018-11-13T11:21:03.567-05:00] Status progress; Lapsed Time: 19.999511235s, Processed: 4931 (99.16%), Processing: 39 (0.78%), Found: 4915 (98.89%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:21:03.568-05:00] Location progress; Lapsed Time: 19.999798222s, Processed: 2932 (58.96%), Processing: 200 (4.02%), Found: 2918 (93.17%), Bad Data: 14 (0.45%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:21:10.244-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:21:10.882-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:21:13.568-05:00] Location progress; Lapsed Time: 29.999891906s, Processed: 4149 (83.43%), Processing: 200 (4.02%), Found: 4133 (95.03%), Bad Data: 16 (0.37%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:21:23.567-05:00] Awaiting Reply: 0, NumThreads: 1242          
+INFO[2018-11-13T11:21:23.568-05:00] Location progress; Lapsed Time: 39.999792643s, Processed: 4969 (99.92%), Processing: 4 (0.08%), Found: 4953 (99.60%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 8 
+INFO[2018-11-13T11:21:31.903-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 18, Time to complete: 48.33531059s 
+INFO[2018-11-13T11:21:40.966-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 12, Time to complete: 57.397797084s 
+INFO[2018-11-13T11:21:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:22:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:22:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:23:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:23:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:23:43.568-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:23:43.928-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:43.936-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.111-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.127-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.641-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.643-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.771-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.865-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.934-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.946-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:44.974-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.113-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.133-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.136-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.473-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.635-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:45.674-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:46.375-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:46.472-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:46.587-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:47.047-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:47.068-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:47.235-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:47.577-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:23:48.673-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:50.364-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:50.859-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:23:53.379-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:23:53.566-05:00] Awaiting Reply: 0, NumThreads: 4660          
+INFO[2018-11-13T11:23:53.567-05:00] Status progress; Lapsed Time: 9.999394039s, Processed: 3612 (72.63%), Processing: 200 (4.02%), Found: 3597 (94.36%), Bad Data: 15 (0.39%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:23:53.568-05:00] Location progress; Lapsed Time: 9.999710098s, Processed: 1686 (33.90%), Processing: 200 (4.02%), Found: 1673 (88.71%), Bad Data: 13 (0.69%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:23:54.215-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:58.504-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:23:59.385-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:24:03.514-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:24:03.567-05:00] Status progress; Lapsed Time: 19.999412696s, Processed: 4956 (99.66%), Processing: 17 (0.34%), Found: 4940 (99.34%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:24:03.568-05:00] Location progress; Lapsed Time: 19.999718505s, Processed: 3788 (76.17%), Processing: 200 (4.02%), Found: 3772 (94.58%), Bad Data: 16 (0.40%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:24:13.568-05:00] Location progress; Lapsed Time: 29.999697001s, Processed: 4962 (99.78%), Processing: 11 (0.22%), Found: 4946 (99.46%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:24:20.479-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 17, Time to complete: 36.911212954s 
+INFO[2018-11-13T11:24:23.566-05:00] Awaiting Reply: 0, NumThreads: 1236          
+INFO[2018-11-13T11:24:34.221-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 11, Time to complete: 50.65246259s 
+INFO[2018-11-13T11:24:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:25:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:25:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:26:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:26:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:26:43.568-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:26:43.932-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:44.010-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:44.020-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:44.441-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:44.446-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:44.633-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.045-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.055-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.097-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.153-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.296-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.297-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.344-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.418-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:45.956-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.277-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.520-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.569-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.690-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.766-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:46.981-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:47.239-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:47.864-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:48.160-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:26:49.129-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:50.921-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:51.462-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+INFO[2018-11-13T11:26:53.566-05:00] Awaiting Reply: 0, NumThreads: 5750          
+INFO[2018-11-13T11:26:53.567-05:00] Status progress; Lapsed Time: 9.999331187s, Processed: 3365 (67.67%), Processing: 200 (4.02%), Found: 3350 (93.97%), Bad Data: 15 (0.42%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:26:53.568-05:00] Location progress; Lapsed Time: 9.999603478s, Processed: 1649 (33.16%), Processing: 199 (4.00%), Found: 1637 (88.58%), Bad Data: 12 (0.65%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:26:54.186-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:26:54.824-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:26:58.769-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:27:00.807-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:27:03.567-05:00] Status progress; Lapsed Time: 19.999303506s, Processed: 4953 (99.60%), Processing: 20 (0.40%), Found: 4937 (99.28%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:27:03.568-05:00] Location progress; Lapsed Time: 19.999591171s, Processed: 3676 (73.92%), Processing: 199 (4.00%), Found: 3661 (94.48%), Bad Data: 15 (0.39%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:27:04.155-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:27:13.568-05:00] Location progress; Lapsed Time: 29.999631039s, Processed: 4965 (99.84%), Processing: 7 (0.14%), Found: 4949 (99.54%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:27:23.566-05:00] Awaiting Reply: 0, NumThreads: 1236          
+INFO[2018-11-13T11:27:24.966-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 20, Time to complete: 41.398262832s 
+INFO[2018-11-13T11:27:37.296-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 8, Time to complete: 53.727739297s 
+INFO[2018-11-13T11:27:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:28:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:28:53.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:29:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:29:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:29:43.569-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:29:43.967-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.119-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.158-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.191-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.706-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.819-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.914-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:44.965-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.084-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.085-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.106-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.207-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.257-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.349-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.358-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.695-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:45.718-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:46.297-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:46.429-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:46.554-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:46.865-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:46.967-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:29:46.968-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:47.147-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:49.966-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:50.817-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:51.326-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:29:53.028-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:29:53.443-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+INFO[2018-11-13T11:29:53.566-05:00] Awaiting Reply: 0, NumThreads: 2004          
+INFO[2018-11-13T11:29:53.567-05:00] Status progress; Lapsed Time: 9.999129785s, Processed: 3936 (79.15%), Processing: 200 (4.02%), Found: 3920 (94.78%), Bad Data: 16 (0.39%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:29:53.568-05:00] Location progress; Lapsed Time: 9.998595905s, Processed: 1719 (34.57%), Processing: 198 (3.98%), Found: 1706 (88.99%), Bad Data: 13 (0.68%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:29:58.052-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:29:58.952-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:30:02.852-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:30:03.567-05:00] Status progress; Lapsed Time: 19.999212104s, Processed: 4953 (99.60%), Processing: 20 (0.40%), Found: 4937 (99.28%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:30:03.568-05:00] Location progress; Lapsed Time: 19.99861499s, Processed: 3978 (79.99%), Processing: 198 (3.98%), Found: 3962 (94.88%), Bad Data: 16 (0.38%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:30:13.568-05:00] Location progress; Lapsed Time: 29.998582379s, Processed: 4965 (99.84%), Processing: 6 (0.12%), Found: 4949 (99.56%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:30:23.567-05:00] Awaiting Reply: 0, NumThreads: 1235          
+INFO[2018-11-13T11:30:23.569-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 20, Time to complete: 40.000863812s 
+ERRO[2018-11-13T11:30:46.529-05:00] Failed to get 'CEN-8ED39563' vehicle Location: Get https://fim.api.us.fleetmatics.com/rad/v1/vehicles/CEN-8ED39563/location: net/http: request canceled (Client.Timeout exceeded while awaiting headers) 
+INFO[2018-11-13T11:30:46.529-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4956 (99.66%), Bad Data: 16 (0.32%), API Call Failure: 1 (0.02%), Retry success: 7, Time to complete: 1m2.95950624s 
+INFO[2018-11-13T11:30:53.566-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:31:23.566-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:31:53.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:32:23.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:32:27.626-05:00] A new token is ready!                        
+INFO[2018-11-13T11:32:43.568-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:32:43.569-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:32:43.903-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:43.918-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.001-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.072-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.617-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.662-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.717-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.861-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:44.999-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.050-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.078-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.226-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.247-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.349-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.355-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.697-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:45.866-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:46.482-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:46.711-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:46.924-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:46.950-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:47.251-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:47.473-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:48.937-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:32:49.153-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:49.952-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:50.264-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:32:52.706-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:52.872-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:32:53.566-05:00] Awaiting Reply: 0, NumThreads: 1981          
+INFO[2018-11-13T11:32:53.567-05:00] Status progress; Lapsed Time: 9.999061347s, Processed: 4526 (91.01%), Processing: 199 (4.00%), Found: 4510 (95.45%), Bad Data: 16 (0.34%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:32:53.568-05:00] Location progress; Lapsed Time: 9.998412786s, Processed: 1848 (37.16%), Processing: 198 (3.98%), Found: 1835 (89.69%), Bad Data: 13 (0.64%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:32:57.312-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:32:58.148-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:33:02.047-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:33:03.567-05:00] Status progress; Lapsed Time: 19.999059538s, Processed: 4958 (99.70%), Processing: 14 (0.28%), Found: 4942 (99.40%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:33:03.568-05:00] Location progress; Lapsed Time: 19.998522097s, Processed: 4173 (83.91%), Processing: 198 (3.98%), Found: 4157 (95.10%), Bad Data: 16 (0.37%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:33:13.568-05:00] Location progress; Lapsed Time: 29.99844371s, Processed: 4967 (99.88%), Processing: 4 (0.08%), Found: 4951 (99.60%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:33:17.153-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 15, Time to complete: 33.585152065s 
+INFO[2018-11-13T11:33:23.567-05:00] Awaiting Reply: 0, NumThreads: 1230          
+INFO[2018-11-13T11:33:32.717-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 6, Time to complete: 49.14747809s 
+INFO[2018-11-13T11:33:53.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:34:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:34:53.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:35:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:35:43.569-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:35:43.570-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:35:43.935-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:43.970-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.030-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.175-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.363-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.606-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.673-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.817-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.865-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.917-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:44.987-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.008-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.009-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.067-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.146-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.464-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:45.663-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:46.107-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:46.317-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:46.512-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:46.534-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:35:46.702-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:46.792-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:47.070-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:48.362-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:48.852-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:48.956-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:35:50.440-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:52.117-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:35:53.567-05:00] Awaiting Reply: 0, NumThreads: 1881          
+INFO[2018-11-13T11:35:53.568-05:00] Location progress; Lapsed Time: 9.998254737s, Processed: 2106 (42.35%), Processing: 200 (4.02%), Found: 2093 (90.76%), Bad Data: 13 (0.56%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:35:55.841-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:35:56.670-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:36:00.560-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:36:03.568-05:00] Location progress; Lapsed Time: 19.998280352s, Processed: 4511 (90.71%), Processing: 199 (4.00%), Found: 4495 (95.44%), Bad Data: 16 (0.34%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:36:13.568-05:00] Location progress; Lapsed Time: 29.998270897s, Processed: 4966 (99.86%), Processing: 6 (0.12%), Found: 4950 (99.56%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:36:21.577-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 22, Time to complete: 38.0085641s 
+INFO[2018-11-13T11:36:23.566-05:00] Awaiting Reply: 0, NumThreads: 1230          
+INFO[2018-11-13T11:36:31.299-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 7, Time to complete: 47.729833831s 
+INFO[2018-11-13T11:36:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:37:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:37:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:38:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:38:43.569-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:38:43.571-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:38:43.963-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:43.987-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.034-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.082-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.392-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.715-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.753-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.775-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.795-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:44.888-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.012-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.018-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.047-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.055-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.157-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.423-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:45.596-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.122-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.337-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.501-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.600-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.784-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.813-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:46.841-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:38:49.065-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:49.461-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:51.119-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:38:51.610-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:52.726-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:38:53.566-05:00] Awaiting Reply: 0, NumThreads: 1757          
+INFO[2018-11-13T11:38:53.567-05:00] Status progress; Lapsed Time: 9.99870387s, Processed: 4955 (99.64%), Processing: 18 (0.36%), Found: 4939 (99.32%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:38:53.568-05:00] Location progress; Lapsed Time: 9.997001545s, Processed: 1812 (36.44%), Processing: 199 (4.00%), Found: 1799 (89.46%), Bad Data: 13 (0.65%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:38:57.012-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:38:57.918-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:39:01.894-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:39:03.568-05:00] Location progress; Lapsed Time: 19.997012775s, Processed: 4215 (84.76%), Processing: 199 (4.00%), Found: 4199 (95.13%), Bad Data: 16 (0.36%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:39:13.568-05:00] Location progress; Lapsed Time: 29.997016528s, Processed: 4962 (99.78%), Processing: 10 (0.20%), Found: 4946 (99.48%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:39:21.881-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 18, Time to complete: 38.312833156s 
+INFO[2018-11-13T11:39:23.566-05:00] Awaiting Reply: 0, NumThreads: 1233          
+INFO[2018-11-13T11:39:36.999-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 11, Time to complete: 53.427797391s 
+INFO[2018-11-13T11:39:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:40:23.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:40:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:41:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:41:43.569-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:41:43.571-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:41:43.893-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.083-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.091-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.092-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.351-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.454-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.550-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.680-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.681-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.714-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.763-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.970-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:44.999-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:45.094-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:45.173-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:45.492-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:45.838-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:46.236-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:46.827-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:46.940-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:46.948-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:47.019-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:47.088-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:41:47.391-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:48.872-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:49.294-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:49.616-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:41:51.210-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:51.966-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:41:53.566-05:00] Awaiting Reply: 0, NumThreads: 1791          
+INFO[2018-11-13T11:41:53.567-05:00] Status progress; Lapsed Time: 9.998682625s, Processed: 4924 (99.01%), Processing: 48 (0.97%), Found: 4908 (98.71%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:41:53.568-05:00] Location progress; Lapsed Time: 9.99647366s, Processed: 1927 (38.75%), Processing: 200 (4.02%), Found: 1914 (89.99%), Bad Data: 13 (0.61%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:41:56.536-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:41:57.974-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:42:01.337-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:42:03.568-05:00] Location progress; Lapsed Time: 19.996467559s, Processed: 4338 (87.23%), Processing: 200 (4.02%), Found: 4322 (95.24%), Bad Data: 16 (0.35%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:42:13.568-05:00] Location progress; Lapsed Time: 29.996447141s, Processed: 4970 (99.94%), Processing: 3 (0.06%), Found: 4954 (99.62%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:42:21.356-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 16, Time to complete: 37.787504189s 
+INFO[2018-11-13T11:42:23.567-05:00] Awaiting Reply: 0, NumThreads: 1230          
+INFO[2018-11-13T11:42:35.513-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 3, Time to complete: 51.941823802s 
+INFO[2018-11-13T11:42:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:43:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:43:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:44:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:44:43.569-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:44:43.572-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:44:43.946-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.054-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.104-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.145-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.334-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.385-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.698-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.787-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.804-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.855-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.948-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.955-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:44.984-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:45.088-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:45.479-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:45.598-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.282-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.419-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.477-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.579-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:44:46.639-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.838-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:46.845-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:48.381-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:48.444-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:48.742-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:44:50.278-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:51.885-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+INFO[2018-11-13T11:44:53.566-05:00] Awaiting Reply: 0, NumThreads: 2034          
+INFO[2018-11-13T11:44:53.568-05:00] Location progress; Lapsed Time: 9.995464702s, Processed: 1937 (38.95%), Processing: 200 (4.02%), Found: 1924 (90.03%), Bad Data: 13 (0.61%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:44:56.440-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:44:57.318-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:45:01.211-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:45:03.568-05:00] Location progress; Lapsed Time: 19.995468174s, Processed: 4379 (88.06%), Processing: 200 (4.02%), Found: 4363 (95.28%), Bad Data: 16 (0.35%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:45:13.568-05:00] Location progress; Lapsed Time: 29.99547675s, Processed: 4967 (99.88%), Processing: 6 (0.12%), Found: 4951 (99.56%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:45:14.963-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+INFO[2018-11-13T11:45:23.567-05:00] Awaiting Reply: 0, NumThreads: 1231          
+INFO[2018-11-13T11:45:31.910-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 6, Time to complete: 48.338081205s 
+ERRO[2018-11-13T11:45:44.868-05:00] Failed to get 'CEN-7EB44993' vehicle Status: Get https://fim.api.us.fleetmatics.com/rad/v1/vehicles/CEN-7EB44993/status: net/http: request canceled (Client.Timeout exceeded while awaiting headers) 
+INFO[2018-11-13T11:45:44.868-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4956 (99.66%), Bad Data: 16 (0.32%), API Call Failure: 1 (0.02%), Retry success: 18, Time to complete: 1m1.299245878s 
+INFO[2018-11-13T11:45:53.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:46:23.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:46:53.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:47:23.567-05:00] Awaiting Reply: 0, NumThreads: 1222          
+INFO[2018-11-13T11:47:27.778-05:00] A new token is ready!                        
+INFO[2018-11-13T11:47:43.569-05:00] Getting vehicles status started.             
+INFO[2018-11-13T11:47:43.573-05:00] Getting vehicles location started.           
+ERRO[2018-11-13T11:47:43.916-05:00] Bad status for 'CAR-1EB58721' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.027-05:00] Bad status for 'CAR-1EB58721' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.073-05:00] Bad status for 'CAR-8ED13740 (not working)' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.086-05:00] Bad status for 'CAR-8ED13740 (not working)' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.517-05:00] Bad status for 'CEN-GEC34232' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.597-05:00] Bad status for 'CEN-BEB10260' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.672-05:00] Bad status for 'CEN-FEC05090' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.841-05:00] Bad status for 'CEN-FEC05109' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.846-05:00] Bad status for 'CEN-BEA59531' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.868-05:00] Bad status for 'CEN-EEB30669' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:44.875-05:00] Bad status for 'CEN-5EC08880' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.064-05:00] Bad status for 'CEN-GEB79989' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.083-05:00] Bad status for 'CEN-8ED81307' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.157-05:00] Bad status for 'CEN-FEC05090' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.430-05:00] Bad status for 'CEN-BEB10260' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.594-05:00] Bad status for 'FLO-8EE30610' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:45.714-05:00] Bad status for 'CEN-GEC34232' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:46.653-05:00] Bad status for 'CEN-EEB30669' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:47.085-05:00] Bad status for 'CEN-GEB79989' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:47.119-05:00] Bad status for 'CEN-FEC05109' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:47.128-05:00] Bad status for 'CEN-8ED81307' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:47.343-05:00] Bad status for 'CEN-BEA59531' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:47.498-05:00] Bad status for 'CEN-5EC08880' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:48.826-05:00] Bad status for 'NWE-FG670881.' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:47:49.286-05:00] Bad status for 'FLO-8EE30610' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:50.260-05:00] Bad status for 'STH-GEB87655' Status API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:50.592-05:00] Bad status for 'TEX-DDA35819 ' Status API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:47:52.680-05:00] Bad status for 'NWE-FG670881.' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:47:52.891-05:00] Bad status for 'WES-8EC58393' Status API call. Status: 204 No Content 
+INFO[2018-11-13T11:47:53.566-05:00] Awaiting Reply: 0, NumThreads: 2676          
+INFO[2018-11-13T11:47:53.567-05:00] Status progress; Lapsed Time: 9.998430134s, Processed: 4510 (90.69%), Processing: 199 (4.00%), Found: 4494 (95.43%), Bad Data: 16 (0.34%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:47:53.568-05:00] Location progress; Lapsed Time: 9.995282515s, Processed: 1803 (36.26%), Processing: 200 (4.02%), Found: 1790 (89.37%), Bad Data: 13 (0.65%), API Failure: 0 (0.00%), Retry Success: 0 
+ERRO[2018-11-13T11:47:57.170-05:00] Bad status for 'STH-GEB87655' Location API call. Status: 204 No Content 
+ERRO[2018-11-13T11:47:58.012-05:00] Bad status for 'TEX-DDA35819 ' Location API call. Status: 404 Not Found 
+ERRO[2018-11-13T11:48:01.899-05:00] Bad status for 'WES-8EC58393' Location API call. Status: 204 No Content 
+INFO[2018-11-13T11:48:03.567-05:00] Status progress; Lapsed Time: 19.998474685s, Processed: 4957 (99.68%), Processing: 15 (0.30%), Found: 4941 (99.38%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:48:03.568-05:00] Location progress; Lapsed Time: 19.995294362s, Processed: 4209 (84.64%), Processing: 200 (4.02%), Found: 4193 (95.10%), Bad Data: 16 (0.36%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:48:13.568-05:00] Location progress; Lapsed Time: 29.995361789s, Processed: 4965 (99.84%), Processing: 8 (0.16%), Found: 4949 (99.52%), Bad Data: 16 (0.32%), API Failure: 0 (0.00%), Retry Success: 0 
+INFO[2018-11-13T11:48:23.107-05:00] Get vehicles status status; Total Vehicles: 4973, Found Statuses: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 16, Time to complete: 39.537731881s 
+INFO[2018-11-13T11:48:23.566-05:00] Awaiting Reply: 0, NumThreads: 1233          
+INFO[2018-11-13T11:48:35.063-05:00] Get vehicles location status; Total Vehicles: 4973, Found Locations: 4957 (99.68%), Bad Data: 16 (0.32%), API Call Failure: 0 (0.00%), Retry success: 8, Time to complete: 51.490117136s 
+INFO[2018-11-13T11:48:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:49:23.567-05:00] Awaiting Reply: 0, NumThreads: 1224          
+INFO[2018-11-13T11:49:53.566-05:00] Awaiting Reply: 0, NumThreads: 1224          
